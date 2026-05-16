@@ -1,0 +1,37 @@
+{
+  "name": "verif-platform-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "axios": "^1.7.2",
+    "zustand": "^4.5.2",
+    "react-hook-form": "^7.51.5",
+    "@hookform/resolvers": "^3.6.0",
+    "zod": "^3.23.8",
+    "lucide-react": "^0.383.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0",
+    "recharts": "^2.12.7",
+    "react-hot-toast": "^2.4.1",
+    "next-themes": "^0.3.0",
+    "date-fns": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}
